@@ -8,11 +8,14 @@
     "sourceMap": true,
     "lib": ["esnext", "dom"],
     "types": ["vite/client"],
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "dist"
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue"
-  ]
+  ],
 }
